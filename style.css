@@ -43,6 +43,10 @@ h2 {
     display: none;
 }
 
+.image-container {
+    width: 80%;
+}
+
 .image {
     display: block;
     width: 80%;
