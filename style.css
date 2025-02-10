@@ -7,17 +7,46 @@
 }
 
 .nerko-one-regular {
-    font-family: "Nerko One", serif;
+    font-family: "Nerko One", 'cursive';
     font-weight: 400;
     font-style: normal;
     color: #ff9614;
     text-align: center;
+    padding: 20px;
 }
 
 
 main {
     background-color: #f6f5f3;
+    font-family: "Montserrat", Helvetica, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+
 }
+
+.titles {
+    padding: 20px;
+    gap: 30px;
+}
+
+.jumbotron {
+    max-width: 480px;
+}
+
+h2 {
+    color: #4e3969;
+}
+
+.dolce-tradizionale {
+    display: none;
+}
+
+.image {
+    width: 80%;
+    height: auto;
+}
+
 
 /* responsività tablet */
 
@@ -27,6 +56,11 @@ main {
         font-size: 3rem;
         text-align: left;
     }
+
+    .dolce-tradizionale {
+        display: inline;
+    }
+
 
 }
 
@@ -39,5 +73,12 @@ main {
         font-size: 4rem;
 
     }
+
+
+    .dolce-tradizionale {
+        display: inline;
+    }
+
+
 
 }
