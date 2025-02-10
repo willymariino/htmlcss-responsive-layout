@@ -70,6 +70,18 @@ h2 {
 
 }
 
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.social-media-item {
+    border-radius: 50%;
+    box-shadow: 50%;
+}
+
 
 /* responsività tablet */
 
