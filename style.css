@@ -5,3 +5,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.nerko-one-regular {
+    font-family: "Nerko One", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ff9614;
+    text-align: center;
+}
