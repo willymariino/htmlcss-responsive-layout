@@ -57,6 +57,7 @@ h2 {
 }
 
 .instructions {
+    width: 20%;
 
     background-color: #ffffff;
     box-shadow: 30px 30px 60px #ffffff;
