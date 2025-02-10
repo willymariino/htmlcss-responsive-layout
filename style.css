@@ -101,6 +101,11 @@ h2 {
 
 }
 
+.img-2 {
+    padding: 15px 50px;
+
+}
+
 
 /* responsività tablet */
 
@@ -115,8 +120,7 @@ h2 {
         display: inline;
     }
 
-
-    .social-media-item {
+    .image-instructions .social-media-item {
         height: 20px;
         width: 100px;
         border-radius: 35px;
@@ -137,18 +141,25 @@ h2 {
 
     }
 
-    .image-tiramisu {
+    .img-2 {
         padding: 15px 50px;
     }
 
-    .tiramisu-presentazione {
-        display: block;
-        margin: 20px auto;
-        width: 30%;
-        height: 30%;
+    .text-2 {
+        padding: 15px 50px;
     }
 
-    .description-tiramisu {}
+
+    .image {
+
+        width: 100%;
+    }
+
+    .image {
+        display: inline-block;
+        width: 40%;
+        float: left;
+    }
 
 
 
