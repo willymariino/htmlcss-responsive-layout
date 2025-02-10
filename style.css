@@ -81,7 +81,7 @@ h2 {
 
 .social-media-item {
     height: 25px;
-    width: 40px;
+    width: 70px;
     border-radius: 50%;
     box-shadow: 7px 0px 15px 0px rgba(0, 0, 0, 0.1);
     background-color: #ffffff;
@@ -150,16 +150,28 @@ h2 {
     }
 
 
-    .image {
 
-        width: 100%;
+    .img-2 {
+        padding: 15px 50px;
+
     }
 
-    .image {
+    .text-image {
+        max-width: 50%;
+    }
+
+    .img-2 {
+        padding: 15px 100px;
+
+    }
+
+    .image.2 {
         display: inline-block;
-        width: 40%;
+        padding: 80%;
         float: left;
     }
+
+
 
 
 
