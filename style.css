@@ -202,6 +202,13 @@ h2 {
         display: inline;
     }
 
+
+    .social-media-item {
+        width: 120px;
+        height: 25px;
+        border-radius: 35px;
+    }
+
     .image-instructions {
         display: flex;
         padding-left: 0;
