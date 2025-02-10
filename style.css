@@ -13,3 +13,17 @@
     color: #ff9614;
     text-align: center;
 }
+
+
+main {
+    background-color: #f6f5f3;
+}
+
+@media (min-width:768px) {
+
+    .nerko-one-regular {
+        font-size: 2rem;
+        text-align: left;
+    }
+
+}
