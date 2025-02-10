@@ -57,7 +57,7 @@ h2 {
 }
 
 .instructions {
-    margin-left: 50px;
+
     background-color: #ffffff;
     box-shadow: 30px 30px 60px #ffffff;
 }
@@ -99,7 +99,7 @@ h2 {
         padding-left: 0;
     }
 
-    .instructions-list {
+    .instructions {
         margin-left: 0;
         padding-left: 0;
     }
