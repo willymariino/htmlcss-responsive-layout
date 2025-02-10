@@ -19,11 +19,25 @@ main {
     background-color: #f6f5f3;
 }
 
+/* responsività tablet */
+
 @media (min-width:768px) {
 
     .nerko-one-regular {
-        font-size: 2rem;
+        font-size: 3rem;
         text-align: left;
+    }
+
+}
+
+/* responsività desktop */
+
+
+@media (min-width:992px) {
+
+    .nerko-one-regular {
+        font-size: 4rem;
+
     }
 
 }
