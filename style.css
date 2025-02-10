@@ -32,6 +32,7 @@ main {
 
 .jumbotron {
     max-width: 480px;
+
 }
 
 h2 {
@@ -43,8 +44,20 @@ h2 {
 }
 
 .image {
+    display: block;
     width: 80%;
     height: auto;
+    margin: 0 auto;
+
+}
+
+.instructions-list {
+    list-style-type: none;
+
+}
+
+.instructions {
+    margin-left: 50px;
 }
 
 
@@ -79,6 +92,9 @@ h2 {
         display: inline;
     }
 
+    .image-instructions {
+        display: flex;
+    }
 
 
 }
