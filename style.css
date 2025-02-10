@@ -46,7 +46,7 @@ h2 {
 }
 
 .image-container {
-    width: 50%;
+    width: 100%;
 }
 
 .image {
@@ -64,26 +64,34 @@ h2 {
 }
 
 .instructions {
-    width: 50%;
+    width: 100%;
     padding-left: 10px;
     background-color: #ffffff;
-    box-shadow: 30px 30px 60px #ffffff;
+    box-shadow: 7px 0px 15px 0px rgba(0, 0, 0, 0.1);
 
 }
 
 .social-media {
     display: flex;
     justify-content: center;
+    justify-content: space-between;
     gap: 20px;
     padding: 20px;
 }
 
 .social-media-item {
-    height: 100px;
-    width: 100px;
+    height: 25px;
+    width: 40px;
     border-radius: 50%;
-    box-shadow: 100px;
+    box-shadow: 7px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    text-align: center;
+    align-items: center;
 
+}
+
+.banner {
+    display: none;
 }
 
 
@@ -96,9 +104,28 @@ h2 {
         text-align: left;
     }
 
-    .dolce-tradizionale {
+    .dolce-tradizionale.ok {
         display: inline;
     }
+
+
+    .social-media-item {
+        height: 20px;
+        width: 100px;
+        border-radius: 35px;
+        box-shadow: 7px 0px 15px 0px rgba(0, 0, 0, 0.1);
+        background-color: #ffffff;
+        text-align: center;
+
+    }
+
+
+    .banner {
+        margin-top: 20px;
+        display: block;
+        width: 100%;
+    }
+
 
 
 }
@@ -113,6 +140,10 @@ h2 {
 
     }
 
+    .image-container {
+        width: 50%;
+    }
+
 
     .dolce-tradizionale {
         display: inline;
@@ -124,9 +155,15 @@ h2 {
     }
 
     .instructions {
-        margin-left: 0;
-        padding-left: 0;
+        width: 50%;
     }
 
+
+
+    .banner {
+        margin-top: 20px;
+        display: block;
+        width: 100%;
+    }
 
 }
