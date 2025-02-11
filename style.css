@@ -227,4 +227,15 @@ h2 {
         width: 95%;
     }
 
+    .img-2 {
+        padding: 20px 43px;
+
+    }
+
+    .image-2 {
+        display: inline-block;
+        width: 35%;
+        float: left;
+    }
+
 }
