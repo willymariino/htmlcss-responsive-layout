@@ -233,6 +233,7 @@ hr {
 
     .image-container {
         width: 60%;
+        max-height: 100%;
     }
 
 
@@ -255,6 +256,7 @@ hr {
     .instructions {
         width: 40%;
         font-size: large;
+        max-height: 100%;
     }
 
     .instructions-list {
@@ -266,7 +268,7 @@ hr {
 
     h3 {
         padding-top: 15px;
-        padding-bottom: 25px;
+
     }
 
 
