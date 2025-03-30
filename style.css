@@ -4,7 +4,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
+
+header {
+    background-color: white;
+    text-align: left;
+}
+
 
 .nerko-one-regular {
     font-family: "Nerko One", 'cursive';
@@ -20,7 +27,7 @@ main {
     background-color: #f6f5f3;
     font-family: "Montserrat", Helvetica, sans-serif;
     font-optical-sizing: auto;
-
+    background-color: #f6f5f3;
     font-style: normal;
 
 }
@@ -212,6 +219,11 @@ hr {
 
 @media (min-width:992px) {
 
+    body {
+        padding-left: 150px;
+        padding-right: 150px;
+        background-color: #f6f5f3;
+    }
 
 
     .nerko-one-regular {
@@ -268,8 +280,8 @@ hr {
 
 
     .image-2 {
-        width: 40%;
-        height: 40%;
+        width: 100%;
+        height: 100%;
 
     }
 
@@ -279,12 +291,12 @@ hr {
 
 
 
-
     .float {
 
         display: flex;
         float: left;
         justify-content: center;
+        max-width: 190px;
 
 
     }
