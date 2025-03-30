@@ -178,13 +178,16 @@ h2 {
         max-width: 50%;
     }
 
-    .img-2 {
-        padding: 20px 43px;
+    .image-2 {
+        max-width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+
 
     }
 
     .float {
-        display: inline-block;
+        display: flex;
         width: 35%;
         float: left;
     }
