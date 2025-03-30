@@ -114,6 +114,13 @@ h2 {
 
 .image-2 {
     max-width: 80%;
+    padding-top: 20px;
+}
+
+.text-2 {
+    padding: 15px;
+    text-align: left;
+
 }
 
 /* responsività tablet */
@@ -157,9 +164,7 @@ h2 {
 
     }
 
-    .img-2 {
-        padding: 15px 50px;
-    }
+
 
     .text-2 {
         padding: 15px 50px;
@@ -167,10 +172,7 @@ h2 {
 
 
 
-    .img-2 {
-        padding: 15px 50px;
 
-    }
 
     .text-image {
         max-width: 50%;
