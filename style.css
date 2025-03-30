@@ -20,7 +20,7 @@ main {
     background-color: #f6f5f3;
     font-family: "Montserrat", Helvetica, sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+
     font-style: normal;
 
 }
@@ -172,7 +172,7 @@ h2 {
 
     }
 
-    .image-2 {
+    .float {
         display: inline-block;
         width: 35%;
         float: left;
