@@ -1,0 +1,241 @@
+/* reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nerko-one-regular {
+    font-family: "Nerko One", 'cursive';
+    font-weight: 400;
+    font-style: normal;
+    color: #ff9614;
+    text-align: center;
+    padding: 20px;
+}
+
+
+main {
+    background-color: #f6f5f3;
+    font-family: "Montserrat", Helvetica, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+
+}
+
+.titles {
+
+    gap: 30px;
+}
+
+.jumbotron {
+
+    padding: 20px;
+    width: 100%;
+
+}
+
+h2 {
+    color: #4e3969;
+}
+
+.dolce-tradizionale {
+    display: none;
+}
+
+.image-container {
+    width: 100%;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+
+
+}
+
+.instructions-list {
+    list-style-type: none;
+
+}
+
+.instructions {
+    width: 100%;
+    padding-left: 10px;
+    background-color: #ffffff;
+    box-shadow: 7px 0px 15px 0px rgba(0, 0, 0, 0.1);
+
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+
+.social-media-item {
+    height: 25px;
+    width: 30px;
+    border-radius: 50%;
+    box-shadow: 7px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    text-align: center;
+    align-items: center;
+
+}
+
+.banner {
+    display: none;
+}
+
+.presentation {
+    margin-top: 20px;
+    padding-left: 15px;
+    border-bottom: 3px solid #f7972e;
+
+}
+
+.img-2 {
+    padding: 15px 50px;
+
+}
+
+
+/* responsività tablet */
+
+@media (min-width:768px) {
+
+    .nerko-one-regular {
+        font-size: 3rem;
+        text-align: left;
+    }
+
+    .dolce-tradizionale.ok {
+        display: inline;
+    }
+
+    .image-instructions .social-media-item {
+        height: 20px;
+        width: 100px;
+        border-radius: 35px;
+        box-shadow: 7px 0px 15px 0px rgba(0, 0, 0, 0.1);
+        background-color: #ffffff;
+        text-align: center;
+
+    }
+
+    .social-media-item {
+        width: 90px;
+        height: 25px;
+        border-radius: 35px;
+    }
+
+    .banner-section {
+        width: 100%;
+    }
+
+    .banner {
+        margin: 20px auto;
+        display: block;
+        width: 95%;
+
+
+    }
+
+    .img-2 {
+        padding: 15px 50px;
+    }
+
+    .text-2 {
+        padding: 15px 50px;
+    }
+
+
+
+    .img-2 {
+        padding: 15px 50px;
+
+    }
+
+    .text-image {
+        max-width: 50%;
+    }
+
+    .img-2 {
+        padding: 20px 43px;
+
+    }
+
+    .image-2 {
+        display: inline-block;
+        width: 35%;
+        float: left;
+    }
+
+
+
+
+
+}
+
+/* responsività desktop */
+
+
+@media (min-width:992px) {
+
+    .nerko-one-regular {
+        font-size: 4rem;
+
+    }
+
+    .image-container {
+        width: 50%;
+    }
+
+
+    .dolce-tradizionale {
+        display: inline;
+    }
+
+
+    .social-media-item {
+        width: 120px;
+        height: 25px;
+        border-radius: 35px;
+    }
+
+    .image-instructions {
+        display: flex;
+        padding-left: 0;
+    }
+
+    .instructions {
+        width: 50%;
+    }
+
+
+
+    .banner {
+        margin: 20px auto;
+        display: block;
+        width: 95%;
+    }
+
+    .img-2 {
+        padding: 20px 43px;
+
+    }
+
+    .image-2 {
+        display: inline-block;
+        width: 35%;
+        float: left;
+    }
+
+}
