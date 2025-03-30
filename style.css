@@ -68,6 +68,7 @@ h2 {
     padding-left: 10px;
     background-color: #ffffff;
     box-shadow: 7px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    gap: 20px;
 
 }
 
@@ -212,7 +213,7 @@ h2 {
     }
 
     .image-container {
-        width: 50%;
+        width: 60%;
     }
 
 
@@ -233,9 +234,21 @@ h2 {
     }
 
     .instructions {
-        width: 50%;
+        width: 40%;
+        font-size: large;
     }
 
+    .instructions-list {
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    h3 {
+        padding-top: 15px;
+        padding-bottom: 25px;
+    }
 
 
     .banner {
