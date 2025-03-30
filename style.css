@@ -101,11 +101,20 @@ h2 {
 
 }
 
-.img-2 {
-    padding: 15px 50px;
-
+.text-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+.float {
+    display: flex;
+    justify-content: center;
+}
+
+.image-2 {
+    max-width: 80%;
+}
 
 /* responsività tablet */
 
