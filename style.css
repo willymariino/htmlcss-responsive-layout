@@ -119,7 +119,7 @@ h2 {
 
 .text-2 {
     padding: 15px;
-    text-align: left;
+    text-align: justify;
 
 }
 
@@ -168,6 +168,7 @@ h2 {
 
     .text-2 {
         padding: 15px 50px;
+        text-align: justify;
     }
 
 
@@ -202,6 +203,8 @@ h2 {
 
 
 @media (min-width:992px) {
+
+
 
     .nerko-one-regular {
         font-size: 4rem;
@@ -245,8 +248,8 @@ h2 {
 
 
     .image-2 {
-        max-width: 40%;
-        max-height: 50%;
+        width: 40%;
+        height: 40%;
 
     }
 
@@ -255,11 +258,13 @@ h2 {
     }
 
 
+
+
     .float {
 
         display: flex;
+        float: left;
         justify-content: center;
-        flex-shrink: 0;
 
 
     }
