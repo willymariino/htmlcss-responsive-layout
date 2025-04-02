@@ -206,6 +206,7 @@ hr {
         display: flex;
         width: 35%;
         float: left;
+        margin-left: 40px;
     }
 
 
