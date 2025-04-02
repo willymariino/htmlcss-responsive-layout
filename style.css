@@ -138,6 +138,11 @@ hr {
 
 }
 
+html {
+
+    scrollbar-width: none;
+}
+
 /* responsività tablet */
 
 @media (min-width:768px) {
@@ -220,16 +225,19 @@ hr {
 
 @media (min-width:992px) {
 
+
+
     body {
         padding-left: 12%;
         padding-right: 12%;
         background-color: #f6f5f3;
+
     }
 
     header {
         /* width: 100vw; non ho capito perchè in questo caso non ha funzionato*/
         margin-left: -16%;
-        margin-right: -14%;
+        margin-right: -16%;
 
 
     }
