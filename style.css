@@ -261,10 +261,10 @@ hr {
     }
 
     .instructions-list {
-        padding: 15px;
+        padding: 10px;
         display: flex;
         flex-direction: column;
-        gap: 20px;
+        gap: 10px;
     }
 
     h3 {
