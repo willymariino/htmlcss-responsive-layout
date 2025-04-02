@@ -227,10 +227,9 @@ hr {
     }
 
     header {
-        width: 100vw;
-        width: calc(100% + 24%);
-        padding-left: 0;
-        padding: -10%;
+        /* width: 100vw; non ho capito perchè in questo caso non ha funzionato*/
+        margin-left: -16%;
+        margin-right: -14%;
 
 
     }
