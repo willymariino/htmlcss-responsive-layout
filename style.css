@@ -220,8 +220,8 @@ hr {
 @media (min-width:992px) {
 
     body {
-        padding-left: 150px;
-        padding-right: 150px;
+        padding-left: 200px;
+        padding-right: 200px;
         background-color: #f6f5f3;
     }
 
@@ -298,9 +298,6 @@ hr {
         width: 100%;
 
     }
-
-
-
 
     .float {
 
