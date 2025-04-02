@@ -275,7 +275,7 @@ hr {
     .banner {
         margin: 20px auto;
         display: block;
-        width: 80%;
+        width: 97%;
         height: 80%;
     }
 
@@ -289,22 +289,27 @@ hr {
 
     .image-2 {
         width: 100%;
-        height: 100%;
+        height: auto;
 
     }
 
     .text-image {
         text-align: left;
+        width: 100%;
+
     }
+
 
 
 
     .float {
 
-        display: flex;
+        display: block;
         float: left;
         justify-content: center;
         max-width: 190px;
+        margin-left: 40px;
+
 
 
     }
