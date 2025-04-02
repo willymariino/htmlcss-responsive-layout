@@ -226,6 +226,11 @@ hr {
         background-color: #f6f5f3;
     }
 
+    header {
+        width: 100vw;
+        padding-left: -12%;
+    }
+
 
     .nerko-one-regular {
         font-size: 4rem;
