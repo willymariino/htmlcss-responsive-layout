@@ -221,8 +221,8 @@ hr {
 @media (min-width:992px) {
 
     body {
-        padding-left: 180px;
-        padding-right: 180px;
+        padding-left: 12%;
+        padding-right: 12%;
         background-color: #f6f5f3;
     }
 
@@ -252,6 +252,7 @@ hr {
     .image-instructions {
         display: flex;
         padding-left: 0;
+
     }
 
     .instructions {
