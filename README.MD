@@ -14,7 +14,9 @@ Mobile ≤ 480px
 **JavaScript**: Adds reading time estimation and updates on scroll
 
 ## Live Preview
-[![Live Demo](https://img.shields.io/badge/Live-Giallo%20Booleano-blue?style=for-the-badge)](https://giallobooleano-tiramisu.netlify.app/) ## ?�️ Tech Stack
+[![Live Demo](https://img.shields.io/badge/Live-Giallo%20Booleano-blue?style=for-the-badge)](https://giallobooleano-tiramisu.netlify.app/) 
+
+## Tech Stack
 HTML5
 CSS3
 JavaScript (Vanilla)
