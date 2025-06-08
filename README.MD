@@ -7,11 +7,11 @@ This is one of my first responsive web design exercises, initially developed wit
 
 ## Features
 **Responsive Design**: Adapts to common device widths:
-Desktop ≥ 992px
-Tablet 768–991px
-Mobile ≤ 480px
-**HTML/CSS**: Semantic structure, responsive grid, media queries
-**JavaScript**: Adds reading time estimation and updates on scroll
+- Desktop ≥ 992px
+- Tablet 768–991px
+- Mobile ≤ 480px
+- **HTML/CSS**: Semantic structure, responsive grid, media queries
+- **JavaScript**: Adds reading time estimation and updates on scroll
 
 ## Live Preview
 [![Live Demo](https://img.shields.io/badge/Live-Giallo%20Booleano-blue?style=for-the-badge)](https://giallobooleano-tiramisu.netlify.app/) 
