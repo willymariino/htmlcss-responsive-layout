@@ -1,38 +1,53 @@
 # Responsive Layout Project
 
+Live demo in **Italian**: [Giallo Booleano](https://giallobooleano-tiramisu.netlify.app/)
+
 ## Overview
-This project was one of my first exercises, initially focused on HTML and CSS, with an emphasis on responsive design across various breakpoints. Later, JavaScript functionality was added to enhance the interactivity of the page. The primary goal was to learn and implement responsive web design principles.
+This is one of my first responsive web design exercises, initially developed with HTML and CSS, then enhanced with JavaScript. The goal was to explore breakpoints and layout behavior across devices.
 
 ## Features
-- **Responsive Design**: The layout adapts to three main breakpoints:
-  - **Desktop**: 992px and above.
-  - **Tablet**: 768px to 991px.
-  - **Mobile**: 480px and below.
-- **HTML and CSS**: Structured content and styled components with a focus on responsiveness.
-- **JavaScript**: Added functionality to estimate reading time and dynamically update the remaining reading time as the user scrolls.
+**Responsive Design**: Adapts to common device widths:
+Desktop ≥ 992px
+Tablet 768–991px
+Mobile ≤ 480px
+**HTML/CSS**: Semantic structure, responsive grid, media queries
+**JavaScript**: Adds reading time estimation and updates on scroll
 
-## Live Demo
-[**Giallo Booleano**](https://giallobooleano-tiramisu.netlify.app/)
+## Live Preview
+[![Live Demo](https://img.shields.io/badge/Live-Giallo%20Booleano-blue?style=for-the-badge)](https://giallobooleano-tiramisu.netlify.app/) ## ?�️ Tech Stack
+HTML5
+CSS3
+JavaScript (Vanilla)
+
+##  How It Works
+HTML sections define page structure
+CSS applies adaptive styles using media queries
+JS tracks scroll to show estimated reading time left
+
+## Project Structure
+`index.html` – main structure
+`style.css` – responsive layout rules
+`script.js` – interaction logic
+`assets/` – images and icons
 
 ## Educational Purpose
-The project was created as part of a learning journey to understand:
-- How to use media queries to create responsive layouts.
-- Best practices for structuring HTML and CSS for scalability.
-- Adding interactivity with JavaScript to improve user experience.
+Practiced:
+Layout scalability with media queries
+Clean structure and visual hierarchy
+Enhancing UX with scroll-based interactions
 
-## How It Works
-1. **HTML**: Provides the structure of the page, including sections for images, text, and social media links.
-2. **CSS**: Implements styling and responsiveness using media queries for different screen sizes.
-3. **JavaScript**: Calculates and displays the estimated reading time based on the content length and updates it dynamically as the user scrolls.
+## Breakpoints Used
+| Device      | Width Range     |
+|-------------|------------------|
+| Desktop     | ≥ 992px         |
+| Tablet      | 768px–991px     |
+| Mobile      | ≤ 480px         |
 
-## Breakpoints
-- **Desktop (≥992px)**: Optimized for larger screens with additional spacing and layout adjustments.
-- **Tablet (768px–991px)**: Adjusted font sizes and layout for medium-sized screens.
-- **Mobile (≤480px)**: Simplified layout for smaller screens with a focus on usability.
+##  Improvements To Consider
+Add dark mode
+Localize text (toggle EN/IT)
+Improve accessibility (a11y)
 
-## Technologies Used
-- **HTML**
-- **CSS**
-- **JavaScript**
+---
 
-
+This README is in English to keep documentation developer-friendly. The live site content is in **Italian**.
