@@ -22,15 +22,15 @@ Mobile ≤ 480px
 - JavaScript (Vanilla)
 
 ##  How It Works
-HTML sections define page structure
-CSS applies adaptive styles using media queries
-JS tracks scroll to show estimated reading time left
+- HTML sections define page structure
+- CSS applies adaptive styles using media queries
+- JS tracks scroll to show estimated reading time left
 
 ## Project Structure
-`index.html` – main structure
-`style.css` – responsive layout rules
-`script.js` – interaction logic
-`assets/` – images and icons
+- `index.html` – main structure
+- `style.css` – responsive layout rules
+- `script.js` – interaction logic
+- `assets/` – images and icons
 
 ## Educational Purpose
 Practiced:
