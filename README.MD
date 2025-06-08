@@ -34,9 +34,9 @@ This is one of my first responsive web design exercises, initially developed wit
 
 ## Educational Purpose
 Practiced:
-Layout scalability with media queries
-Clean structure and visual hierarchy
-Enhancing UX with scroll-based interactions
+- Layout scalability with media queries
+- Clean structure and visual hierarchy
+- Enhancing UX with scroll-based interactions
 
 ## Breakpoints Used
 | Device      | Width Range     |
