@@ -17,9 +17,9 @@ Mobile ≤ 480px
 [![Live Demo](https://img.shields.io/badge/Live-Giallo%20Booleano-blue?style=for-the-badge)](https://giallobooleano-tiramisu.netlify.app/) 
 
 ## Tech Stack
-HTML5
-CSS3
-JavaScript (Vanilla)
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
 
 ##  How It Works
 HTML sections define page structure
@@ -46,9 +46,9 @@ Enhancing UX with scroll-based interactions
 | Mobile      | ≤ 480px         |
 
 ##  Improvements To Consider
-Add dark mode
-Localize text (toggle EN/IT)
-Improve accessibility (a11y)
+- Add dark mode
+- Localize text (toggle EN/IT)
+- Improve accessibility (a11y)
 
 ---
 
