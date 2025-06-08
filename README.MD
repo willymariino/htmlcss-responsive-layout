@@ -12,7 +12,7 @@ This project was one of my first exercises, initially focused on HTML and CSS, w
 - **JavaScript**: Added functionality to estimate reading time and dynamically update the remaining reading time as the user scrolls.
 
 ## Live Demo
-**Giallo Booleano** (https://giallobooleano-tiramisu.netlify.app/)
+[**Giallo Booleano**] (https://giallobooleano-tiramisu.netlify.app/)
 
 ## Educational Purpose
 The project was created as part of a learning journey to understand:
